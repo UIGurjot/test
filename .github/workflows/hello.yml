@@ -7,6 +7,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    -run: echo "Hello from github actions"
-    -run: ls
-    
+    - run: echo "Hello from github actions"
+    - run: ls
