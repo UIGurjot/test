@@ -1,0 +1,12 @@
+name: Hello Action
+
+on: push
+
+jobs: 
+  test: 
+    runs-on: ubuntu-latest
+
+    steps:
+    -run: echo "Hello from github actions"
+    -run: ls
+    
